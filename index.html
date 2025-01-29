@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assests/index.css" />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <div class="p_card">
+      <img
+        src="./assests/images/me.jpg"
+        alt="Profile Picture"
+        class="picture"
+        data-testid="profilePicture"
+      />
+      <h2 data-testid="fullName">Blessing Emmanuel Etuk</h2>
+      <p data-testid="jobTitle">Software Engineer</p>
+      <p data-testid="shortBio">
+        I am a Software Engineer passionate about creating impactful
+        applications that drive innovation and solve real-world problems. My
+        goal is to develop technology that transforms industries, benefits my
+        home country, and gains global recognition. I thrive on learning,
+        collaboration, and using software to spark meaningful change in
+        communities worldwide.
+      </p>
+      <p data-testid="currentLocation">Lagos, Nigeria</p>
+      <p data-testid="emailAddress">etuks.blessing@gmail.com</p>
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://www.linkedin.com/in/blessing-etuk-6b96b5226/"
+          ><i class="fa-brands fa-linkedin fa-xl"></i
+        ></a>
+        <a href="https://github.com/Tukkieee"
+          ><i class="fa-brands fa-github fa-xl"></i
+        ></a>
+        <a href="https://twitter.com/Tukkieee_/"
+          ><i class="fa-brands fa-twitter fa-xl"></i
+        ></a>
+      </div>
+      <p data-testid="currentTimeUTC" id="time"></p>
+    </div>
+    <script src="./assests/index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9a7380b4a5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
